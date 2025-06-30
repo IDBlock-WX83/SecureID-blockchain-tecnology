@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+.env
+
+# Configuración de IDE
+.idea/
+
+# Archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos generados por el sistema de build
+build/
