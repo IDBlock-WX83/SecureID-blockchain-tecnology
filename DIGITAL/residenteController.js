@@ -1,7 +1,7 @@
 const { ethers } = require('ethers'); // Importa la librería 'ethers' para interactuar con la blockchain.
 const { provider } = require('../config/blockchain'); // Importa la configuración del proveedor de la blockchain desde un archivo externo.
 
-const CONTRATO_REGISTRO_RESIDENTE_ADDRESS = '0x6469b744B506f39Fc5A6B453CDc27f7a48758bce'; // Dirección del contrato inteligente en la blockchain (un valor de ejemplo).
+const CONTRATO_REGISTRO_RESIDENTE_ADDRESS = '0xd747afA078e592135812DE9Dd023Fb89ABa46667'; // Dirección del contrato inteligente en la blockchain (un valor de ejemplo).
 
 const abi = [ // Define el ABI (Interfaz Binaria de Aplicación) que describe las funciones del contrato inteligente.
     "function registrarResidente(string,string,string,uint,uint,string,string,string,string,string,uint,uint,uint) public", // Función para registrar un residente en el contrato inteligente.
