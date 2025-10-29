@@ -6,7 +6,7 @@ const { NETWORK_URL, PRIVATE_KEY } = require('../config/configContracts');
 // Configuración de Alchemy
 const config = {
     apiKey: "YBVW4zoplvrcqR4dlP4lXanRnfHiz71w",
-    network: Network.ETH_HOLESKY,
+    network: Network.ETH_SEPOLIA,
 };
 
 const alchemy = new Alchemy(config);
