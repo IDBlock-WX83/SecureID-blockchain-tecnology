@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'No build step needed for backend'",
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo 'Skipping tests in Azure deployment'",
     "sonar": "node ./node_modules/sonarqube-scanner/bin/sonar-scanner"
   },
   "keywords": [],
